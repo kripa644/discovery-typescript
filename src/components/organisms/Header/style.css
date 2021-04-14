@@ -1,0 +1,24 @@
+.header {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 4% 18% 46% 32%;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 5% 20% 70% 5%;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .header {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 6% 70% 20%;
+    }
+}

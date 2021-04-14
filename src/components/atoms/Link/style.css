@@ -1,0 +1,19 @@
+.Link {
+    text-decoration: none;
+    color: #bcc5cf;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+.Link:hover {
+    color: #ffffff;
+}
+.nav-link {
+    margin-right: 25px;
+}
+
+.selected {
+    color: #ffffff;
+    font-weight: 600;
+}

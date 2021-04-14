@@ -1,0 +1,11 @@
+.categoryCard {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryCard:hover .imageText {
+    bottom: 22%;
+}
