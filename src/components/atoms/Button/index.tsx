@@ -8,6 +8,7 @@ export enum ButtonType {
     SUBMIT = 'submit',
 };
 
+// button themes
 export enum ButtonTheme {
     PRIMARY =  'primary',
     SECONDARY = 'secondary',
